@@ -1,0 +1,5 @@
+{
+    "editor.inlineSuggest.enabled": false,
+    "emmet.useInlineCompletions": false,
+    "editor.autoClosingBrackets": "never"
+}
