@@ -1,4 +1,58 @@
 body {
     font-family: 'Courier New', Courier, monospace;
-    border-color: black;
+    
 }
+
+
+.inpage-links:hover {
+
+    text-decoration-color: #AAAAAA;
+    text-decoration-line: underline;
+
+}
+
+
+
+a {
+
+    text-decoration: none;
+
+}
+
+ol {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+
+}
+
+
+
+ol li{
+
+  list-style-type: none;
+
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display:flex;
+    justify-content: center;
+}
+
+.top-bottom {
+
+    background-color:#AA4A44;
+
+}
+
+
+
+
+
+
