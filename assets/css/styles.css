@@ -1,3 +1,10 @@
+
+:root {
+
+    --secondary-color: #AA4A44;
+    --primary-color: #32CD32;
+}
+
 body, html {
     font-family: 'Courier New', Courier, monospace;
     height:100%;
@@ -52,7 +59,7 @@ footer {
 
 .top-bottom {
 
-    background-color:#AA4A44;
+    background-color: var(--secondary-color);
 
 }
 
