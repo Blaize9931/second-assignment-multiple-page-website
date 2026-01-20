@@ -31,11 +31,14 @@ a {
 
 }
 
+
+
 ol {
 
     display: flex;
     justify-content: space-evenly;
     flex-direction: row;
+    font-size: 30px;
 
 }
 
@@ -110,12 +113,13 @@ footer {
    
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
     align-content: center;
     background-color: var(--secondary-color);
     border-radius: 5px;
     padding: 25px;
-    height: 70%;
-    
+    height: 75%;
+    width: 75%;
 
  }
 
@@ -135,22 +139,43 @@ footer {
     resize: none;
 
  }
+
  input[type=submit]:hover {
     
   background-color: #67c967;  
     
 }
 
-@media screen and (max-width: 600px) and (orientation: portrait) {
+
+
+
+@media (max-width: 600px)
+
+{
+   
 
     form {
 
-        display: flex;    
-
+        justify-content: center;
+        font-size: 40px;
     }
 
+}
 
-} 
+@media screen and (orientation: portrait) {
+
+    ol {
+        font-size: 16px;
+    }
+
+    .pages {
+        
+        flex-flow: column;
+        
+    }
+}
+
+
     
 
 
