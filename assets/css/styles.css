@@ -81,7 +81,7 @@ footer {
     height: 98%;
     width: 30%;
     border: solid black 2px;
-    margin: 1%;
+    margin: 0 auto;
     
     
     
@@ -105,8 +105,47 @@ footer {
 
  }
 
+ form  {
 
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: var(--secondary-color);
+    border-radius: 5px;
+    padding: 25px;
+    height: 70%;
 
+ }
+
+ label { display: block;}
+
+ input, textarea {
+
+    border: solid  black 1px;
+    background-color: var(--primary-color);
+    border-radius: 2px;
+    width: 100%;
+
+ }
+
+ textarea {
+
+    resize: none;
+
+ }
+ input[type=submit]:hover {
+    
+  background-color: #67c967;  
+    
+}
+
+@media screen and (orientation: portrait) and (max-width: 768px) {
+
+    main {
+
+        flex-direction: row;
+    }
+}
 
 
 
