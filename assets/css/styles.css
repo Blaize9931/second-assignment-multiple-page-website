@@ -120,6 +120,7 @@ footer {
     padding: 25px;
     height: 75%;
     width: 75%;
+    justify-content: center;
 
  }
 
@@ -203,9 +204,17 @@ footer {
 
     .box-1, .box-2, .box-3 {
 
-        
+
         width: 25%;
     
+    }
+}
+
+@media (min-width: 1200px) {
+
+    form {
+
+        font-size: 34px
     }
 }
 
