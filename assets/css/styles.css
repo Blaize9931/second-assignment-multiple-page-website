@@ -107,6 +107,7 @@ footer {
 
  form  {
 
+   
     display: flex;
     flex-direction: column;
     align-content: center;
@@ -114,6 +115,7 @@ footer {
     border-radius: 5px;
     padding: 25px;
     height: 70%;
+    
 
  }
 
@@ -139,13 +141,17 @@ footer {
     
 }
 
-@media screen and (orientation: portrait) and (max-width: 768px) {
+@media screen and (max-width: 600px) and (orientation: portrait) {
 
-    main {
+    form {
 
-        flex-direction: row;
+        display: flex;    
+
     }
-}
+
+
+} 
+    
 
 
 
