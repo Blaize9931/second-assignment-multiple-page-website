@@ -171,8 +171,21 @@ footer {
     .pages {
         
         flex-flow: column;
-        
+        flex-wrap: nowrap;
     }
+
+    .container-1, .container-2, .container-3 {
+
+        display: flex;
+        justify-content: center;
+    height: 98%;
+    width: 95%;
+    border: solid black 2px;
+    margin: 0 auto;
+    
+    
+    
+ }
 }
 
 
