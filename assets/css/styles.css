@@ -83,7 +83,7 @@ footer {
 
     height: 98%;
     width: 30%;
-    
+    overflow:scroll;
     background-color: var(--secondary-color);
     margin: 0 auto;
     font-size: 26px;
