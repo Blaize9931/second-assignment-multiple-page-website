@@ -119,7 +119,6 @@ footer {
    
     display: flex;
     flex-direction: column;
-    flex-wrap: wrap;
     align-content: center;
     background-color: var(--secondary-color);
     border-radius: 5px;
